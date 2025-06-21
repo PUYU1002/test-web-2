@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0f0f23;
+  color: #e2e8f0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 全局滚动条样式 */
+::-webkit-scrollbar {
+  width: 0.625rem;
+  height: 0.625rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 15, 35, 0.3);
+  border-radius: 0.3125rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.3);
+  border-radius: 0.3125rem;
+  border: 0.125rem solid rgba(15, 15, 35, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.5);
+}
+
+::-webkit-scrollbar-corner {
+  background: rgba(15, 15, 35, 0.3);
+}
+
+/* 链接样式 */
+a {
+  color: #d4af37;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #f6e05e;
+  text-decoration: none;
+}
+
+/* 全局过渡效果 */
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* 全局焦点样式 */
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.125rem rgba(212, 175, 55, 0.5);
+}
+
+/* 选择文本样式 */
+::selection {
+  background: rgba(212, 175, 55, 0.3);
+  color: #ffffff;
+}
+
+/* 输入框全局样式 */
+input, textarea, select {
+  background: rgba(212, 175, 55, 0.05);
+  border: 0.0625rem solid rgba(212, 175, 55, 0.2);
+  border-radius: 0.3125rem;
+  color: #e2e8f0;
+  padding: 0.5rem 0.75rem;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: rgba(212, 175, 55, 0.5);
+  background: rgba(212, 175, 55, 0.1);
+}
+
+/* 按钮全局样式 */
+button {
+  background: rgba(212, 175, 55, 0.1);
+  color: #d4af37;
+  border: 0.0625rem solid rgba(212, 175, 55, 0.3);
+  border-radius: 0.3125rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: rgba(212, 175, 55, 0.2);
+  transform: translateY(-0.125rem);
+}
+
+button:active {
+  transform: translateY(0);
+}
+
+/* 禁用状态 */
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}

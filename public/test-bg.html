@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景图测试</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background-image: url('/assets/images/homepage-bg.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            font-family: 'KaiTi', '楷体', serif;
+        }
+        
+        .test-content {
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.8);
+            margin: 2rem;
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+        }
+        
+        h1 {
+            color: #8B4513;
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+        
+        p {
+            color: #2F4F4F;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="test-content">
+        <h1>江湖词锋 - 背景图测试</h1>
+        <p>这是一个测试页面，用于验证首页背景图是否正确显示。</p>
+        <p>如果您能看到武侠电影的背景图片，说明配置成功。</p>
+        <p>背景图路径：/assets/images/homepage-bg.png</p>
+        <p>访问地址：<a href="http://localhost:3000/test-bg.html">http://localhost:3000/test-bg.html</a></p>
+    </div>
+</body>
+</html> 
