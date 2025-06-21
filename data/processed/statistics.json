@@ -1,0 +1,16 @@
+{
+  "totalMovies": 47,
+  "yearRange": {
+    "min": 1967,
+    "max": 2015
+  },
+  "durationStats": {
+    "average": 104.9,
+    "min": 80,
+    "max": 180
+  },
+  "genreDistribution": {
+    "武侠": 47
+  },
+  "directorStats": []
+}
